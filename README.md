@@ -8,7 +8,7 @@ It is used to measure the distance of an object by using sound waves.
 
 Formula to calculate the distance is speed x time. And this result is to be divided by 2. Because the wave, strikes the signal and returns back.
 
-###Connection
+### Connection
 ```
 Vcc- 5V power supply.
 GND- Any of the ground pin.
