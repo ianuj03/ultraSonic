@@ -1,3 +1,8 @@
+/*
+ * This program is used to check the distance of the nearest object and print it on the LCD display.
+ * Author: Anuj Jain
+ * @ianuj03
+ */
 #include<LiquidCrystal.h>
 #define trig 9
 #define echo 8
