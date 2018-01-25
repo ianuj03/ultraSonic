@@ -11,7 +11,9 @@ Name | Quantity
 -----|---------
 Arduino UNO/MEGA | 1
 HC-SR04 Ultrasonic | 1
-Jumper wire | 4
+Jumper wire | 4+10
+LCD | 1 (Optional)
+Breadboard | 1 (if LCD used)
 
 ### Connection
 ```
