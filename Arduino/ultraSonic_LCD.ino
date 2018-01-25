@@ -1,12 +1,12 @@
 #include<LiquidCrystal.h>
 #define trig 9
 #define echo 8
-LiquidCrystal lcd(2,3,4,5,6,7);
+LiquidCrystal lcd(2,3,4,5,6,7);//rs,en,d4,d5,d6,d7
 void setup(){
   pinMode(trig,OUTPUT);
   pinMode(echo,INPUT);
   //Serial.begin(9600);
-  lcd.begin(16,2);
+  lcd.begin(16,2);//column,row
   lcd.setCursor(0,0);
   lcd.print("Distance:");
   digitalWrite(trig,LOW);
