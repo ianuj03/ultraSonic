@@ -16,14 +16,15 @@ LCD | 1 (Optional)
 Breadboard | 1 (if LCD used)
 
 ### Connection
+##### HC-SR04:
 ```
-HC-SR04:
 Vcc- 5V power supply.
 GND- Any of the ground pin.
 Trig- a.k.a Trigger Pin; connect to a digital pin as an OUTPUT PIN.
 ECHO- Connect to a digital pin as an INPUT PIN.
-
-LCD:
+```
+##### LCD:
+```
 VSS- Connect it to the ground;
 VDD/Vcc- Connect it to the 5V from the board;
 VO/VEE- Used to vary the contrast using a potentiometer, Connect it to the centre of the potentiometer and the other two as Vcc and GND;
