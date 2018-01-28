@@ -24,7 +24,7 @@ void loop(){
   long distance=(duration/2)/29.1;
   //Serial.println(distance);
   lcd.setCursor(0,1);
-  lcd.print(distance+1);
+  lcd.print(distance);
   lcd.print(" cm");
   //delay(500);
 }
